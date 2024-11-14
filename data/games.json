@@ -1,0 +1,13 @@
+[
+    {
+      "name": "World's Hardest Game",
+      "icon": "/data/icon.png",
+      "link": "/games/swf"
+    },
+    {
+      "name": "Game 2",
+      "icon": "/data/icon.png",
+      "link": "/game/nonexistent"
+    }
+  ]
+  
