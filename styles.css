@@ -14,12 +14,12 @@ body {
 
 /* Main container box */
 .container {
-    background-color: #D84315; /* Darker orange background */
-    border: 5px solid #FF9800; /* Orange outline */
-    border-radius: 15px; /* Rounded corners */
+    background-color: #FF6C00; /* Darker orange background */
+    border: 3px solid #9D4300; /* Orange outline */
+    border-radius: 10px; /* Rounded corners */
     padding: 40px 20px; /* Thinner padding on the X-axis */
     text-align: center;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    /* box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3); Subtle shadow */
     width: 80%; /* Set a width for the container */
     max-width: 600px; /* Max width for better responsiveness */
 }
