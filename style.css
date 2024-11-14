@@ -51,6 +51,7 @@ a {
     color: white;           /* Set link color to white */
     font-weight: bold;      /* Make the font bold */
     font-size: 1.5em;       /* Set font size to 1.5mm */
+    margin-bottom: 3px; /* Reduced bottom margin */
 }
 
 /* Style for when the link is hovered over */
