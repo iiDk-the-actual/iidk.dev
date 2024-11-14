@@ -21,12 +21,13 @@ body {
     text-align: center;
     width: 750px; /* Set a width for the container */
     max-width: 600px; /* Max width for better responsiveness */
-    margin-top: 3px; /* Adds 10px space above the container */
+    margin-top: 10px; /* Adds 10px space above the container */
 }
 
 /* Heading styling */
 h1 {
     font-size: 3em;
+    margin-top: 3px
     margin-bottom: 3px;
 }
 
