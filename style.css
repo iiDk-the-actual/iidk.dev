@@ -43,3 +43,8 @@ p {
     margin-top: 0px;  /* No space above paragraph */
     margin-bottom: 3px; /* Reduced bottom margin */
 }
+
+a {
+    font-size: 1.5em;
+    bold: true;
+}
