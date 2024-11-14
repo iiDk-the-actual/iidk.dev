@@ -1,0 +1,55 @@
+/* General body styling */
+body {
+    background-color: #FF5722; /* Dark orange background */
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container box */
+.container {
+    background-color: #D84315; /* Darker orange background */
+    border: 5px solid #FF9800; /* Orange outline */
+    border-radius: 15px; /* Rounded corners */
+    padding: 40px 20px; /* Thinner padding on the X-axis */
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    width: 80%; /* Set a width for the container */
+    max-width: 600px; /* Max width for better responsiveness */
+}
+
+/* Heading styling */
+h1 {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+/* Info box below the main container */
+.info-box {
+    background-color: #FF9800; /* Lighter orange background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    margin-top: 20px;
+    width: 80%; /* Same width as the container */
+    max-width: 600px; /* Max width for consistency */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for subtle depth */
+}
+
+/* Info box text */
+.info-box p {
+    font-size: 1.2em;
+    color: #3E2723; /* Dark brown color for contrast */
+}
