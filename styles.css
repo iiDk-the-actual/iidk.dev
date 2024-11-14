@@ -1,6 +1,6 @@
 /* General body styling */
 body {
-    background-color: #FF5722; /* Dark orange background */
+    background-color: #8C3800; /* Dark orange background */
     font-family: Arial, sans-serif;
     color: white;
     margin: 0;
@@ -34,18 +34,6 @@ h1 {
 p {
     font-size: 1.5em;
     margin-top: 0;
-}
-
-/* Info box below the main container */
-.info-box {
-    background-color: #FF9800; /* Lighter orange background */
-    border-radius: 10px; /* Rounded corners */
-    padding: 20px;
-    margin-top: 20px;
-    width: 80%; /* Same width as the container */
-    max-width: 600px; /* Max width for consistency */
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for subtle depth */
 }
 
 /* Info box text */
