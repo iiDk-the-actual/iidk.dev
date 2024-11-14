@@ -19,7 +19,7 @@ body {
     border-radius: 10px; /* Rounded corners */
     padding: 3px 3px; /* Thinner padding on the X-axis */
     text-align: center;
-    width: 80%; /* Set a width for the container */
+    width: 750px; /* Set a width for the container */
     max-width: 600px; /* Max width for better responsiveness */
     margin-top: 10px; /* Adds 10px space above the container */
 }
@@ -27,7 +27,7 @@ body {
 /* Heading styling */
 h1 {
     font-size: 3em;
-    margin-bottom: 15px;
+    margin-bottom: 3px;
 }
 
 /* Paragraph styling */
