@@ -17,7 +17,7 @@ body {
     background-color: #FF6C00; /* Darker orange background */
     border: 3px solid #9D4300; /* Orange outline */
     border-radius: 10px; /* Rounded corners */
-    padding: 10px 10px; /* Thinner padding on the X-axis */
+    padding: 3px 3px; /* Thinner padding on the X-axis */
     text-align: center;
     /* box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3); Subtle shadow */
     width: 80%; /* Set a width for the container */
@@ -34,10 +34,4 @@ h1 {
 p {
     font-size: 1.5em;
     margin-top: 0;
-}
-
-/* Info box text */
-.info-box p {
-    font-size: 1.2em;
-    color: #3E2723; /* Dark brown color for contrast */
 }
