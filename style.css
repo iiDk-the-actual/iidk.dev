@@ -19,9 +19,9 @@ body {
     border-radius: 10px; /* Rounded corners */
     padding: 3px 3px; /* Thinner padding on the X-axis */
     text-align: center;
-    /* box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3); Subtle shadow */
     width: 80%; /* Set a width for the container */
     max-width: 600px; /* Max width for better responsiveness */
+    margin-top: 10px; /* Adds 10px space above the container */
 }
 
 /* Heading styling */
