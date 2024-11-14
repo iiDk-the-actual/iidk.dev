@@ -7,7 +7,6 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; Was centering*/
     align-items: center;
     height: 100vh;
 }
@@ -24,6 +23,7 @@ body {
     margin-top: 10px; /* Adds 10px space above the container */
 }
 
+/* 1px separator styling */
 .separator {
     border: 0;
     border-top: 1px solid #fff; /* White line, change color if needed */
@@ -33,13 +33,13 @@ body {
 /* Heading styling */
 h1 {
     font-size: 3em;
-    margin-top: 3px
-    margin-bottom: 3px;
+    margin-top: 3px;  /* Fixed missing semicolon */
+    margin-bottom: 3px; /* Reduced bottom margin */
 }
 
 /* Paragraph styling */
 p {
     font-size: 1.5em;
-    margin-top: 0px;
-    margin-bottom: 3px;
+    margin-top: 0px;  /* No space above paragraph */
+    margin-bottom: 3px; /* Reduced bottom margin */
 }
