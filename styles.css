@@ -1,6 +1,6 @@
 /* General body styling */
 body {
-    background-color: #8C3800; /* Dark orange background */
+    background-color: #6A3100; /* Dark orange background */
     font-family: Arial, sans-serif;
     color: white;
     margin: 0;
@@ -17,7 +17,7 @@ body {
     background-color: #FF6C00; /* Darker orange background */
     border: 3px solid #9D4300; /* Orange outline */
     border-radius: 10px; /* Rounded corners */
-    padding: 40px 20px; /* Thinner padding on the X-axis */
+    padding: 10px 10px; /* Thinner padding on the X-axis */
     text-align: center;
     /* box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3); Subtle shadow */
     width: 80%; /* Set a width for the container */
