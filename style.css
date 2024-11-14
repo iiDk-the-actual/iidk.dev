@@ -78,7 +78,6 @@ a {
     color: white;           /* Set link color to white */
     font-weight: bold;      /* Make the font bold */
     font-size: 1.5em;       /* Set font size to 1.5mm */
-    margin-top: 3px;  /* No space above paragraph */
     margin-bottom: 3px; /* Reduced bottom margin */
 }
 
