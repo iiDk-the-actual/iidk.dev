@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
   // Create the image element
   var img = document.createElement('img');
-  img.src = '/icon.png';
+  img.src = '/images/icon.png';
   img.style.height = '50px';
 
   // Create the h1 element
