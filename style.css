@@ -45,7 +45,25 @@ p {
     margin-bottom: 3px; /* Reduced bottom margin */
 }
 
+/* Style links */
 a {
-    font-size: 1.5em;
-    bold: true;
+    text-decoration: none;  /* Remove underline */
+    color: white;           /* Set link color to white */
+    font-weight: bold;      /* Make the font bold */
+    font-size: 1.5em;       /* Set font size to 1.5mm */
+}
+
+/* Style for when the link is hovered over */
+a:hover {
+    text-decoration: none;  /* Ensure no underline on hover */
+    color: white;           /* Ensure white color on hover */
+    font-weight: bold;      /* Keep bold on hover */
+    font-size: 1.5em;       /* Keep font size 1.5mm on hover */
+}
+
+/* Style for visited links */
+a:visited {
+    color: white;           /* Keep links white even when visited */
+    font-weight: bold;      /* Keep bold for visited links */
+    font-size: 1.5em;       /* Keep font size 1.5mm for visited links */
 }
