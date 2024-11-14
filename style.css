@@ -27,8 +27,8 @@ body {
 .separator {
     border: 0;
     border-top: 1px solid #fff; /* White line, change color if needed */
-    margin: 10px 0; /* Adds spacing above and below the line */
-    width: 75%;
+    margin: 10px auto; /* Adds spacing above and below the line and centers it */
+    width: 95%; /* Set the width to 95% of the parent container */
 }
 
 /* Heading styling */
