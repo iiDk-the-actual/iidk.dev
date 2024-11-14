@@ -28,6 +28,7 @@ body {
     border: 0;
     border-top: 1px solid #fff; /* White line, change color if needed */
     margin: 10px 0; /* Adds spacing above and below the line */
+    width: 75%;
 }
 
 /* Heading styling */
