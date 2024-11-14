@@ -12,7 +12,7 @@ body {
 
 @font-face {
   font-family: Afacad;
-  src: url("/afacad.ttf");
+  src: url("/data/afacad.ttf");
 }
 
 /* Main container box */
