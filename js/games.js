@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(data => {
             const grid = document.querySelector('.grid');
 
-            data.forEach(game => {
+            data.forEach((game, index) => {
                 const gameElement = document.createElement('a');
-                gameElement.href = game.link;
+                gameElement.href = game.link + "?i=" + index;
                 gameElement.classList.add('no-style');
 
                 const innerContainer = document.createElement('div');

@@ -6,10 +6,16 @@
       "data": "/data/games/swf/whg.swf"
     },
     {
-      "name": "Game 2",
-      "icon": "/data/icon.png",
-      "link": "/game/nonexistent",
-      "data": "/data/games/swf/whg.swf"
+      "name": "The Impossible Quiz",
+      "icon": "/data/games/icons/iq.png",
+      "link": "/games/swf",
+      "data": "/data/games/swf/iq.swf"
+    },
+    {
+      "name": "The Impossible Quiz 2",
+      "icon": "/data/games/icons/iq2.png",
+      "link": "/games/swf",
+      "data": "/data/games/swf/iq2.swf"
     }
   ]
   
