@@ -54,6 +54,7 @@ body {
 .inner-container img {
     height: auto; /* Set image height */
     width: 90%; /* Maintain aspect ratio */
+    border-radius: 10px;
 }
 
 .grid { /* Need a pull to center these damn grid elements :(( */

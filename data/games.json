@@ -1,13 +1,15 @@
 [
     {
       "name": "World's Hardest Game",
-      "icon": "/data/icon.png",
-      "link": "/games/swf"
+      "icon": "/data/games/icons/whg.png",
+      "link": "/games/swf",
+      "data": "/data/games/swf/whg.swf"
     },
     {
       "name": "Game 2",
       "icon": "/data/icon.png",
-      "link": "/game/nonexistent"
+      "link": "/game/nonexistent",
+      "data": "/data/games/swf/whg.swf"
     }
   ]
   

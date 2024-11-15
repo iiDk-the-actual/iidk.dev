@@ -10,8 +10,7 @@
 </head>
 <body>
     <script src="/js/header.js"></script>
-    <div class="container" style="width: 95%;">
-        <p>World's Hardest Game</p>
+    <div class="container" id="game-container" style="width: 95%;">
         <script>
             window.RufflePlayer = window.RufflePlayer || {};
             window.RufflePlayer.config = {
@@ -22,11 +21,8 @@
             };
         </script>
         <script src="/js/ruffle/ruffle.js"></script>
-        <div class="center">
-            <div class="game-container">
-                <object><param name="movie" value="/data/games/swf/whg.swf"></object>
-            </div>
-        </div>
+        
+        <script src="/js/appendgame.js"></script>
     </div>
 </body>
 </html>
