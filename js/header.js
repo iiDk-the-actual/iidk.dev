@@ -26,7 +26,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
   // Create the navigation links
   var navLinks = document.createElement('div');
-  navLinks.innerHTML = '<a href="/">home</a> - <a href="/projects">projects</a> - <a href="/games">games</a>';
+  navLinks.innerHTML = '<a href="/">home</a> - <a href="/links">links</a> - <a href="/games">games</a>';
 
   // Append everything to the container
   container.appendChild(headerContainer);

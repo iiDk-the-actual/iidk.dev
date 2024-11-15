@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(data => {
             const grid = document.querySelector('.grid');
 
+            const title = document.getElementById("title");
+            title.textContent = "Games [" + data.length + "]";
+
             data.forEach((game, index) => {
                 const gameElement = document.createElement('a');
                 gameElement.href = game.link + "?i=" + index;
@@ -12,8 +15,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 const innerContainer = document.createElement('div');
                 innerContainer.classList.add('inner-container');
 
-                document.createElement('br');
-
                 const img = document.createElement('img');
                 img.src = game.icon;
                 innerContainer.appendChild(img);
@@ -21,6 +22,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 const gameName = document.createElement('gameTitle');
                 gameName.textContent = game.name;
                 innerContainer.appendChild(gameName);
+
+                innerContainer.appendChild(document.createElement('br'));
 
                 gameElement.appendChild(innerContainer);
                 grid.appendChild(gameElement);

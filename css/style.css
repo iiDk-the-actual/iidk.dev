@@ -33,9 +33,34 @@ body {
     border-radius: 10px; /* Rounded corners */
     padding: 3px 3px; /* Thinner padding on the X-axis */
     text-align: center;
-    width: 100px; /* Set a width for the container */
-    height: auto;
+    vertical-align: middle;
+    align-items: center;
+    display: table-cell;
+    height: 140px;
+    max-height: 140px;
     margin-bottom: 10px;
+}
+
+iframe {
+    padding: 0px;
+    border-radius: 0px;
+}
+
+button {
+    background-color: #ff924a;
+    border: 1px solid #9D4300;
+    border-radius: 10px;
+    padding: 3px 3px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    margin-top: 1px;
+}
+
+button img {
+    width: auto;
+    height: 20px;
 }
 
 .game-container {
@@ -43,11 +68,13 @@ body {
     border: 3px solid #9D4300;
     border-radius: 10px;
     padding: 3px 3px;
-    text-align: center;
-    width: 100%;      /* Full width relative to the container */
-    max-width: 550px; /* Limit width to 640px */
-    height: auto;
-    max-height: 480px; /* Limit height to 480px */
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    height: 600px;
     margin-bottom: 10px;
 }
 
