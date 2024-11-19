@@ -74,8 +74,8 @@
     {
       "name": "Plants vs. Zombies",
       "icon": "/data/games/icons/pvz.jpeg",
-      "link": "/games/swf",
-      "data": "/data/games/swf/pvz/resources.swf"
+      "link": "/games/iframe",
+      "data": "/data/games/swf/pvz"
     }
   ]
   

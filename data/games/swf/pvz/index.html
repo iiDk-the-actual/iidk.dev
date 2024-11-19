@@ -17,5 +17,14 @@ object {
 }
 </style>
 
+<script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.RufflePlayer.config = {
+        "warnOnUnsupportedContent": false, 
+        "splashScreen": false, 
+        "autoplay": "on", 
+        "unmuteOverlay": "hidden"
+    };
+</script>
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 <object width="100%" height="100%"><param name="movie" value="pvz_9_15.swf"><embed src="pvz_9_15.swf" width="100%" height="100%" /></object>
