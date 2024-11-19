@@ -70,6 +70,12 @@
       "icon": "/data/games/icons/run.png",
       "link": "/games/iframe",
       "data": "/data/games/run3"
+    },
+    {
+      "name": "Plants vs. Zombies",
+      "icon": "/data/games/icons/pvz.jpeg",
+      "link": "/games/swf",
+      "data": "/data/games/swf/pvz/pvz_9_15.swf"
     }
   ]
   
