@@ -21,7 +21,6 @@ fetch('/data/games.json')
         gameObject.width = "800";
         gameObject.height = "600";
         gameObject.frameBorder = 0;
-        gameObject.style = 'overflow:hidden!important;overflow-x:hidden!important;overflow-y:hidden!important;height:100%;width:100%;position:absolute!important;top:0%;left:0px;right:0px;bottom:0px;z-index:9999!important;';
         gameObject.src = game["data"];
 
         // Add fullscreen button
@@ -32,6 +31,7 @@ fetch('/data/games.json')
         fullscreenButton.appendChild(icon);
 
         fullscreenButton.addEventListener('click', () => {
+            gameObject.contentWindow.document.body.focus()
             if (!document.fullscreenElement) {
                 gameObject.requestFullscreen().catch(err => {
                     console.error(`Error attempting to enable fullscreen mode: ${err.message}`);
