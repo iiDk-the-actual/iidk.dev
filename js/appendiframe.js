@@ -25,19 +25,20 @@ fetch('/data/games.json')
 
         // Add fullscreen button
         const fullscreenButton = document.createElement('button');
-
         const icon = document.createElement('img');
         icon.src = "/data/fullscreen.png";
         fullscreenButton.appendChild(icon);
 
         fullscreenButton.addEventListener('click', () => {
-            gameObject.contentWindow.document.body.focus()
+            gameObject.contentWindow.document.body.focus();  // Focus the iframe document body
+
             if (!document.fullscreenElement) {
-                gameObject.requestFullscreen().catch(err => {
+                // Enter fullscreen mode for the iframe's container (not just the iframe itself)
+                innerGameContainer.requestFullscreen().catch(err => {
                     console.error(`Error attempting to enable fullscreen mode: ${err.message}`);
                 });
             } else {
-                document.exitFullscreen();
+                document.exitFullscreen();  // Exit fullscreen when clicked again
             }
         });
 
@@ -50,7 +51,7 @@ fetch('/data/games.json')
 
         gameContainer.appendChild(gameTitle);
         innerGameContainer.appendChild(gameObject);
-        gameTitle.appendChild(fullscreenButton); // Add button to container
+        gameTitle.appendChild(fullscreenButton);  // Add button to container
         centerDiv.appendChild(innerGameContainer);
         gameContainer.appendChild(centerDiv);
     }
