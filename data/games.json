@@ -24,16 +24,22 @@
       "data": "/data/games/swf/iq2.swf"
     },
     {
-      "name": "Learn 2 Fly",
+      "name": "Learn to Fly",
       "icon": "/data/games/icons/ltf.png",
       "link": "/games/swf",
       "data": "/data/games/swf/ltfly.swf"
     },
     {
-      "name": "Learn 2 Fly 2",
+      "name": "Learn to Fly 2",
       "icon": "/data/games/icons/ltf2.png",
       "link": "/games/swf",
       "data": "/data/games/swf/ltfly2.swf"
+    },
+    {
+      "name": "Learn to Fly 3",
+      "icon": "/data/games/icons/ltf3.png",
+      "link": "/games/swf",
+      "data": "/data/games/swf/ltf3.swf"
     },
     {
       "name": "Run",
@@ -60,10 +66,22 @@
       "data": "/data/games/swf/pvz"
     },
     {
+      "name": "Bloons Tower Defense 4",
+      "icon": "/data/games/icons/btd4.png",
+      "link": "/games/swf",
+      "data": "/data/games/swf/btd4.swf"
+    },
+    {
       "name": "Bloons Tower Defense 5",
       "icon": "/data/games/icons/btd5.png",
       "link": "/games/swf",
       "data": "/data/games/swf/btd5.swf"
+    },
+    {
+      "name": "Binding of Isaac: Wrath of the Lamb",
+      "icon": "/data/games/icons/tboiwotl.jpeg",
+      "link": "/games/swf",
+      "data": "/data/games/swf/tboiwotl.swf"
     },
     {
       "name": "Subway Surfers",
