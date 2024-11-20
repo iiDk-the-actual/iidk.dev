@@ -67,7 +67,7 @@
     },
     {
       "name": "Bloons Tower Defense 4",
-      "icon": "/data/games/icons/btd4.png",
+      "icon": "/data/games/icons/btd4.jpg",
       "link": "/games/swf",
       "data": "/data/games/swf/btd4.swf"
     },
