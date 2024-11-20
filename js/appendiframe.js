@@ -34,7 +34,7 @@ fetch('/data/games.json')
 
             if (!document.fullscreenElement) {
                 // Enter fullscreen mode for the iframe's container (not just the iframe itself)
-                innerGameContainer.requestFullscreen().catch(err => {
+                gameObject.requestFullscreen().catch(err => {
                     console.error(`Error attempting to enable fullscreen mode: ${err.message}`);
                 });
             } else {
