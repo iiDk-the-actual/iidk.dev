@@ -6,6 +6,12 @@
       "data": "/data/games/swf/whg.swf"
     },
     {
+      "name": "World's Hardest Game 2",
+      "icon": "/data/games/icons/whg2.jpg",
+      "link": "/games/swf",
+      "data": "/data/games/swf/whg.swf"
+    },
+    {
       "name": "The Impossible Quiz",
       "icon": "/data/games/icons/iq.png",
       "link": "/games/swf",
@@ -30,30 +36,6 @@
       "data": "/data/games/swf/ltfly2.swf"
     },
     {
-      "name": "Subway Surfers",
-      "icon": "/data/games/icons/subwaysurfers.png",
-      "link": "/games/iframe",
-      "data": "https://lnahtml.github.io/a8/subway-surfers-newyork"
-    },
-    {
-      "name": " A Dance of Fire and Ice",
-      "icon": "/data/games/icons/adofai.jpg",
-      "link": "/games/iframe",
-      "data": "/data/games/adofai"
-    },
-    {
-      "name": "Minecraft",
-      "icon": "/data/games/icons/mc.png",
-      "link": "/games/iframe",
-      "data": "/data/games/mc"
-    },
-    {
-      "name": "Slope",
-      "icon": "/data/games/icons/slope.png",
-      "link": "/games/iframe",
-      "data": "/data/games/slope"
-    },
-    {
       "name": "Run",
       "icon": "/data/games/icons/run.png",
       "link": "/games/swf",
@@ -76,6 +58,36 @@
       "icon": "/data/games/icons/pvz.jpeg",
       "link": "/games/iframe",
       "data": "/data/games/swf/pvz"
+    },
+    {
+      "name": "Bloons Tower Defense 5",
+      "icon": "/data/games/icons/btd5.png",
+      "link": "/games/swf",
+      "data": "/data/games/swf/btd5.swf"
+    },
+    {
+      "name": "Subway Surfers",
+      "icon": "/data/games/icons/subwaysurfers.png",
+      "link": "/games/iframe",
+      "data": "https://lnahtml.github.io/a8/subway-surfers-newyork"
+    },
+    {
+      "name": " A Dance of Fire and Ice",
+      "icon": "/data/games/icons/adofai.jpg",
+      "link": "/games/iframe",
+      "data": "/data/games/adofai"
+    },
+    {
+      "name": "Minecraft",
+      "icon": "/data/games/icons/mc.png",
+      "link": "/games/iframe",
+      "data": "/data/games/mc"
+    },
+    {
+      "name": "Slope",
+      "icon": "/data/games/icons/slope.png",
+      "link": "/games/iframe",
+      "data": "/data/games/slope"
     }
   ]
   
