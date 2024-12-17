@@ -106,6 +106,12 @@
       "icon": "/data/games/icons/slope.png",
       "link": "/games/iframe",
       "data": "/data/games/slope"
+    },
+    {
+      "name": "Block Blast",
+      "icon": "/data/games/icons/blockblast.png",
+      "link": "/games/iframe",
+      "data": "https://reunbozdo.github.io/"
     }
   ]
   
