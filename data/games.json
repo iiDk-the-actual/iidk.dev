@@ -102,6 +102,12 @@
       "data": "/data/games/mc"
     },
     {
+      "name": "Minecraft 1.12",
+      "icon": "/data/games/icons/mcicon.png",
+      "link": "/games/iframe",
+      "data": "https://eaglertech.org/"
+    },
+    {
       "name": "Slope",
       "icon": "/data/games/icons/slope.png",
       "link": "/games/iframe",
