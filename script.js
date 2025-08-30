@@ -3,7 +3,8 @@ let hasUserInteracted = false;
 function initMedia() {
   console.log("initMedia called");
   const backgroundMusic = document.getElementById('background-music');
-  if (!backgroundMusic) {
+  backgroundMusic.src = `assets/background_music${Math.floor(Math.random() * 6)}.mp3`;
+  if (!backgroundMusic) { 
     console.error("Media elements not found");
     return;
   }
@@ -17,12 +18,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const profileBio = document.getElementById('profile-bio');
   const visitorCount = document.getElementById('visitor-count');
   const backgroundMusic = document.getElementById('background-music');
-  const resultsButtonContainer = document.getElementById('results-button-container');
   const resultsButton = document.getElementById('results-theme');
   const volumeIcon = document.getElementById('volume-icon');
   const volumeSlider = document.getElementById('volume-slider');
-  const hackerOverlay = document.getElementById('hacker-overlay');
-  const snowOverlay = document.getElementById('snow-overlay');
   const glitchOverlay = document.querySelector('.glitch-overlay');
   const profileBlock = document.getElementById('profile-block');
   const skillsBlock = document.getElementById('skills-block');
@@ -38,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const profilePicture = document.querySelector('.profile-picture');
   const profileContainer = document.querySelector('.profile-container');
 
-  const startMessages = ["click to view", "click to stalk", "click just because", "click to come inside", "click to visualize", "click to unlock", "click to feast", "click to open the door", "click to sprint", "click to jump", "click to say apple"];
+  const startMessages = ["click to view", "click to stalk", "click just because", "click to come inside", "click to visualize", "click to unlock", "click to feast", "click to open the door", "click to gently open the door", "click to sprint", "click to jump", "click to say apple"];
   const startMessage = startMessages[Math.floor(Math.random() * startMessages.length)];
   let startTextContent = '';
   let startIndex = 0;
@@ -49,14 +47,14 @@ document.addEventListener('DOMContentLoaded', () => {
       startTextContent = startMessage.slice(0, startIndex + 1);
       startIndex++;
     }
-    startText.textContent = startTextContent + (startCursorVisible ? '|' : ' ');
+    startText.textContent = startTextContent + (startCursorVisible ? '|' : ' ');
     setTimeout(typeWriterStart, 100);
   }
 
 
   setInterval(() => {
     startCursorVisible = !startCursorVisible;
-    startText.textContent = startTextContent + (startCursorVisible ? '|' : ' ');
+    startText.textContent = startTextContent + (startCursorVisible ? '|' : ' ');
   }, 500);
 
 
@@ -118,7 +116,11 @@ document.addEventListener('DOMContentLoaded', () => {
     "crimsoncc",
     "goldentrophii",
     "aa_goldentrophy",
-    "aa_crimsoncauldron"
+    "aa_crimsoncauldron",
+    "iiwashere",
+    "herewasii",
+    "kdii",
+    "grayson"
   ];
   let name = names[Math.floor(Math.random() * names.length)];
   let nameText = '';
@@ -141,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
       isNameDeleting = false;
       name = names[Math.floor(Math.random() * names.length)];
     }
-    profileName.textContent = nameText + (nameCursorVisible ? '|' : ' ');
+    profileName.textContent = nameText + (nameCursorVisible ? '|' : ' ');
     if (Math.random() < 0.1) {
       profileName.classList.add('glitch');
       setTimeout(() => profileName.classList.remove('glitch'), 200);
@@ -151,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   setInterval(() => {
     nameCursorVisible = !nameCursorVisible;
-    profileName.textContent = nameText + (nameCursorVisible ? '|' : ' ');
+    profileName.textContent = nameText + (nameCursorVisible ? '|' : ' ');
   }, 500);
 
 
@@ -164,15 +166,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
     "403 forbidden",
     "object reference not set to an instance of an object",
+    "transcending beyond this plane",
+    "winforms is so bad it's good",
 
     "lost online",
+    "let go",
+    "i'm trying my best",
+    "in a world of people trying to fit in you stand out as the only one left with personality",
     "let me out of this device",
     "my negativity is a mirror",
+    "thank you my make-believe friends",
 
     "just be yourself",
+    "an uncontrollable foreverlong mechanism",
+    "marketing at its finest",
     "i support mostly everyone",
     "there's nothing wrong with you",
     "never underestimate yourself",
+    "check out my site: 127.0.0.1:3000",
 
     "unable to exit this mortal plane",
     "loud sounds i cannot control",
@@ -180,12 +191,15 @@ document.addEventListener('DOMContentLoaded', () => {
     "died in 2016 and in virtual hell",
     "the stars align in an unfollowable path",
     "from the lands of which i don't understand",
+    "why as soon as we become so close we have to say goodbye",
 
     "i hate cosine",
-    "remember these fourteen formulas",
+    "mechanical keyboards",
     "it's just an illusion",
+    "contacting the mothership",
 
     "i <3 debian",
+    "i hate typescript",
     "sorting my life with ls",
 
     "admin@goldentrophy.software"
@@ -330,14 +344,6 @@ document.addEventListener('DOMContentLoaded', () => {
       duration: 0.5,
       ease: 'power2.out'
     });
-  });
-
-
-  profilePicture.addEventListener('mouseenter', () => {
-    glitchOverlay.style.opacity = '1';
-    setTimeout(() => {
-      glitchOverlay.style.opacity = '0';
-    }, 500);
   });
 
 
